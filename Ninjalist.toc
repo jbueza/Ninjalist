@@ -1,6 +1,6 @@
 ## Interface: 30300
 ## Title: Ninjalist
-## Notes: Allows users to 
+## Notes: Ninjalist is a World of Warcraft addon dedicated to providing players with an early warning system before they commit themselves to a raid.
 ## Version: v0.1
 ## Author: jbueza
 ## SavedVariables: NinjalistDB
@@ -16,8 +16,6 @@ embeds.xml
 localization\enUS.lua
 
 
-Gladius.lua
-auralist.lua
-speclist.lua
+Ninjalist.lua
 options.lua
-frame.lua
+
