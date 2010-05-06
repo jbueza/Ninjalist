@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="Ninjalist" default="deploy" basedir=".">
+  <property file="build.properties"/>
+  <property name="deploy.dir" value="${ninjalist.addons.dir}" />
+  
+  <!-- DEPRECATED DO NOT USE THIS SHIZZ -->
+  <target name="deploy" description="Copy code to World of Warcraft Interface Addons directory" >
+    <mkdir dir="${deploy.dir}" />
+    <delete failonerror="false" includeemptydirs="true">
+      <fileset dir="${deploy.dir}" includes="**/*" />  
+    </delete>
+    <copy todir="${deploy.dir}">
+      <fileset dir="." excludes="build* README* **/.DS_Store"/>
+    </copy>
+  </target>
+</project>

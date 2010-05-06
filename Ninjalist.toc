@@ -1,0 +1,23 @@
+## Interface: 30300
+## Title: Ninjalist
+## Notes: Allows users to 
+## Version: v0.1
+## Author: jbueza
+## SavedVariables: NinjalistDB
+## OptionalDeps: Ace3, LibStub, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets
+## LoadManagers: AddonLoader
+## X-LoadOn-Slash: /ninjalist
+## X-LoadOn-InterfaceOptions: Ninjalist
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+localization\enUS.lua
+
+
+Gladius.lua
+auralist.lua
+speclist.lua
+options.lua
+frame.lua
