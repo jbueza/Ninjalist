@@ -12,14 +12,23 @@ local function slashHandler(option)
   option = string.lower(option)
   
   if option == "add" then
-    --Gladius:ShowOptions()
-    SendChatMessage("Command: Add ninja", "SAY")
+    --Ninjalist:ShowOptions()
+    SendChatMessage("Command: Add ninja", "GUILD")
   elseif option == "search" then
     --self:ToggleFrame(1)
-    SendChatMessage("Command: Search". "SAY")
+    SendChatMessage("Command: Search", "GUILD")
   else
-    self:Print(L["Valid slash commands are:"])
-    self:Print(L["/ninjalist add <name>"])
-    self:Print(L["/ninjalist search"])
+    SendChatMessage("Valid slash commands are:", "GUILD")
+    
+    SendChatMessage("/ninjalist add name", "GUILD")
+    
+    SendChatMessage("/ninjalist scan", "GUILD")
+    
+--    self:Print("Valid slash commands are:")
+  --  self:Print("/ninjalist add name")
+  --  self:Print("/ninjalist scan")
   end
 end
+
+
+self:RegisterChatCommand("ninjalist", slashHandler)
