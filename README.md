@@ -2,6 +2,8 @@ Ninjalist
 ================================
 by Jaime Bueza
 
+![Ninjalist Screenshot](http://2.bp.blogspot.com/_j2iJ0meptoY/S-e7A4DpI3I/AAAAAAAAAC8/uIaLJKiq8Lk/s1600/ninjalist-1.jpg)
+
 A World of Warcraft addon that is dedicated to providing players with an early warning system for ninjas (people who master loot the raid and unfairly steal the loot from you)
 
 USAGE

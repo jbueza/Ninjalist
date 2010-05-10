@@ -32,8 +32,6 @@ function Ninjalist:Scan()
   local NumRaidMembers = GetNumRaidMembers()
   local NumPartyMembers = GetNumPartyMembers()
   
-  
-   
   self.inGroup = false
   self.inRaid = false
 
