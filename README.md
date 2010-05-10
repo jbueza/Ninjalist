@@ -8,13 +8,10 @@ A World of Warcraft addon that is dedicated to providing players with an early w
 
 USAGE
 ---------------------------------------
-<code>/ninjalist add nameOfPlayer</code>
 
-Adds the name of the player with an associated date for tracking purposes.
+`/ninjalist`
 
-<code>/ninjalist scan</code>
-
-Scans the current raid group for any known Ninjas.
+This will open up the Ninjalist console that will allow you to add ninjas, scan for ninjas, and filter them.
 
 DEBUGGING AND DEPLOYING TRICKS
 ---------------------------------------
