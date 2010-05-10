@@ -4,6 +4,7 @@
 ## Version: v0.1
 ## Author: jbueza
 ## SavedVariables: NinjalistDB
+## SavedVariablesPerCharacter: NinjalistPerCharDB
 ## OptionalDeps: Ace3, LibStub, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Slash: /ninjalist
@@ -12,10 +13,11 @@
 #@no-lib-strip@
 embeds.xml
 #@end-no-lib-strip@
+Ninjalist.xml
 
 localization\enUS.lua
 
-
 Ninjalist.lua
 options.lua
+##options.lua
 
