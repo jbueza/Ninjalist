@@ -10,11 +10,12 @@ local function slashHandler(option)
   
   if option == "add" then
     --Ninjalist:ShowOptions()
-    --SendChatMessage("Invoke: AddNinjaCommand(ninjaName)", "GUILD")
+    --SendChatMessage("Invoke: AddNinjaCommand(ninjaName)", "PARTY")
     self:Print("Invoke: AddNinjaCommand(ninjaName)")
   elseif option == "scan" then
     --self:ToggleFrame(1)
     self:Print("Invoke: Scan(raidGroup)")
+    Ninjalist:Scan()
     --SendChatMessage("Invoke: Scan(raidGroup)", "GUILD")
   else
     --SendChatMessage("Valid slash commands are:", "GUILD")
