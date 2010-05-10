@@ -46,7 +46,6 @@ local function slashHandler(option)
   option = string.lower(option)
   
   if option == "add" then
-
     --SendChatMessage("Invoke: AddNinjaCommand(ninjaName)", "PARTY")
     Ninjalist:Print("Invoke: AddNinjaCommand(ninjaName)")  
   elseif option == "scan" then
@@ -54,6 +53,8 @@ local function slashHandler(option)
     Ninjalist:Print("Invoke: Scan(raidGroup)")
     Ninjalist:Scan()
     --SendChatMessage("Invoke: Scan(raidGroup)", "GUILD")
+  elseif option == "list" then
+    Ninjalist:List()
   else
     Ninjalist:Toggle()
   end
