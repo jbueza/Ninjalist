@@ -26,11 +26,11 @@ Once this is complete, you can alt-tab back into your World of Warcraft game cli
 
 TODO
 ---------------------------------------
-* Create Windows batch (.bat) file for Windows developers that want to contribute to this project
+* <strike>Create Windows batch (.bat) file for Windows developers that want to contribute to this project</strike> We are now using Ant as a deployment utility
 * Develop a workflow for users to upload their ninjalists to a web service 
   * name of player (ninja)
   * date of the incident
   * server the player is on
   * the location (vault of archavon, ice crown citadel)
     
-* Develop a UI using Frame.xml that allows users to add ninjas easily, as well as, search easily
+* <strike>Develop a UI using Frame.xml that allows users to add ninjas easily, as well as, search easily</strike>
